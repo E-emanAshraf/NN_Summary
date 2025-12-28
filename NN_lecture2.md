@@ -23,9 +23,6 @@ The Perceptron is the simplest neural network form, designed for pattern classif
 * **Architecture:** It uses a hard-limit transfer function (signum) to return +1 or -1.
 
 
-* **Learning Rule:** Weights are updated based on an error-correction rule: , where  is the learning rate,  is the target, and  is the actual output.
-
-
 * **Convergence Theorem:** If a problem is linearly separable, the Perceptron is guaranteed to converge in a finite number of steps.
 
 
