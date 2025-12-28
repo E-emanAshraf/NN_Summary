@@ -153,7 +153,7 @@ the range of values a neuron can express,The squashing function serves to limit 
 
 ### 4. Sigmoid (Logistic) Function
 
-* **Definition:** An S-shaped graph defined by the formula $\phi(v) = \frac{1}{1 + \exp(-av)}$
+* **Definition:** An S-shaped graph defined by the formula $\phi(v) = \frac{1}{1 + \exp(-av)}$  .
 * **Characteristics:**
 * It is **continuously differentiable**, which is essential for training via back-propagation.
 * The parameter 'a' controls the slope. As 'a' approaches infinity, it mimics the Step function.
@@ -163,7 +163,7 @@ the range of values a neuron can express,The squashing function serves to limit 
 ### 5. Hyperbolic Tangent (Tanh) Function
 
 * **Definition:** A sigmoid-style function that provides a bi-polar output.
-* **Rule**: The function given is:$\phi(v) = \frac{1-\exp(-av)}{1 + \exp(-av)}$
+* **Rule**: The function given is:$\phi(v) = \frac{1-\exp(-av)}{1 + \exp(-av)}$  .
 
 
 ### 6. Rectified Linear Unit (ReLU)
